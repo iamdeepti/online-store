@@ -1,35 +1,36 @@
 # Online store
 [![HitCount](http://hits.dwyl.io/iamdeepti/online-store.svg)](http://hits.dwyl.io/iamdeepti/online-store)
 
-An Ecommerce website having all basic functionalites with paytm as payment gateway and an admin panel where you can insert , delete and modify products detail and view user query. Languages and skills used: html, css, JavaScript, jQuery, php, mysqli.
+An Ecommerce website having all basic functionalites with paytm as payment gateway and an admin panel where you can insert , delete and modify products detail and view user query.
 
-Framework used: Bootstrap for frontend
-
-Dependencies : LAMP/WAMP stack or any web server of such kind</br>
+####Dependencies : 
+LAMP/WAMP stack or any web server of such kind</br>
 (It's been tested on both LAMP and WAMP stack)
+To install Lamp you can follow this tutorial : https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address
 
-After forking this repo include it in www folder of wamp if using windows, and on linus include it inside /var/www/html folder
 
+After forking this repo include it in the **www** folder inside wamp if using windows, and on linux include it inside **/var/www/html** folder
 
+####Structure of the Repository
 This repository has following structure:
 
  admin </br>
-│   ├── admin.php : Contains an html form and checks the username and password for admin panel </br>
-│   └── Image : This directory contains images that are being used in the for selling </br>
-│       ├── add.php : This file adds new product</br>
+│   ├── admin.php : *Contains an html form and checks the username and password for admin panel* </br>
+│   └── Image : *This directory contains images that are being used in the for selling* </br>
+│       ├── add.php : *This file adds new product*</br>
 │       ├── Canon_dslr.jpg</br>
-│       ├── database.php : This shows the whole information about products</br>
-│       ├── delete.php : This file deletes a record from database</br>
-│       ├── edit.php : This file edits a record</br>
+│       ├── database.php : *This shows the whole information about products*</br>
+│       ├── delete.php : *This file deletes a record from database*</br>
+│       ├── edit.php : *This file edits a record*</br>
 │       ├── t-shirt.jpg</br>
 │       └── watch.jpg</br>
-├── basicDetail.php : This file displays the basic Details of the user and gives option to edit them</br>
-├── cart.php : This file displays the items in the cart of the user that has logged in</br>
-├── cart-remove.php : Removes an item from cart</br>
+├── basicDetail.php : *This file displays the basic Details of the user and gives option to edit them*</br>
+├── cart.php : *This file displays the items in the cart of the user that has logged in*</br>
+├── cart-remove.php : *Removes an item from cart*</br>
 ├── changelog</br>
-├── favorite.php : Displays items that were marked as favorite by the user</br>
+├── favorite.php : *Displays items that were marked as favorite by the user*</br>
 ├── include </br>
-│   ├── bootstrap-3.3.7-dist : Frontend Framework</br>
+│   ├── bootstrap-3.3.7-dist : *Frontend Framework*</br>
 │   │   ├── css</br>
 │   │   │   ├── bootstrap.css</br>
 │   │   │   ├── bootstrap.css.map</br>
@@ -51,8 +52,8 @@ This repository has following structure:
 │   │       └── npm.js</br>
 │   ├── bootstrap.css</br>
 │   ├── bootstrap.js</br>
-│   ├── Check-if-added.php : This file checks if an item is already there in cart</br>
-│   ├── common.php : This file establishes connection with the database</br>
+│   ├── Check-if-added.php : *This file checks if an item is already there in cart*</br>
+│   ├── common.php : *This file establishes connection with the database*</br>
 │   ├── fonts</br>
 │   │   ├── glyphicons-halflings-regular.eot</br>
 │   │   ├── glyphicons-halflings-regular.svg</br>
@@ -61,20 +62,20 @@ This repository has following structure:
 │   │   └── glyphicons-halflings-regular.woff2</br>
 │   └── jQuery.js</br>
 ├── index.css </br>
-├── index.php : The start page of our store</br>
-├── login.php : Displays a login page</br>
-├── login_script.php : contains the script to check the password and username entered in login form</br>
-├── logout.php : logs out a user</br>
-├── manage_address.php : Displays all addresses entered by user and gives an option to add or delete them</br>
-├── manage_script.php : Adds or deletes the address of the user depending upon the choice made</br>
-├── my_order.php : shows all the orders made by user</br>
+├── index.php : *The start page of our store*</br>
+├── login.php : *Displays a login page*</br>
+├── login_script.php : *contains the script to check the password and username entered in login form*</br>
+├── logout.php : *logs out a user*</br>
+├── manage_address.php : *Displays all addresses entered by user and gives an option to add or delete them*</br>
+├── manage_script.php : *Adds or deletes the address of the user depending upon the choice made*</br>
+├── my_order.php : *shows all the orders made by user*</br>
 ├── nbproject</br>
 │   ├── private</br>
 │   │   ├── private.properties</br>
 │   │   └── private.xml</br>
 │   ├── project.properties</br>
 │   └── project.xml</br>
-├── PaytmKit : This directory contains files for paytm authentication</br>
+├── PaytmKit : *This directory contains files for paytm authentication*</br>
 │   ├── lib</br>
 │   │   ├── config_paytm.php</br>
 │   │   └── encdec_paytm.php</br>
@@ -88,23 +89,23 @@ This repository has following structure:
 │   └── private.xml</br>
 ├── private.properties</br>
 ├── private.xml</br>
-├── product_detail.php : Shows the all the details of product once you click on the image</br>
-├── profile.css : css for profile.php</br>
-├── profile.php : shows profile of the user</br>
+├── product_detail.php : *Shows the all the details of product once you click on the image*</br>
+├── profile.css : *css for profile.php*</br>
+├── profile.php : *shows profile of the user*</br>
 ├── project.properties</br>
 ├── project.xml</br>
-├── README.md : This where you are :p</br>
-├── search_form.php : code for a search bar</br>
-├── search.php : script for searching</br>
-├── sidebar.php : creates a sidebar </br>
-├── signup.php : displays a signup form</br>
-├── signup_script.php : script for signup page</br> 
+├── README.md : *This where you are :p*</br>
+├── search_form.php : *code for a search bar*</br>
+├── search.php : *script for searching*</br>
+├── sidebar.php : *creates a sidebar *</br>
+├── signup.php : *displays a signup form*</br>
+├── signup_script.php : *script for signup page*</br> 
 ├── style.css </br>
-├── success.php : user is directed here if the product was purchased successfully</br>
-├── support_current.php : shows current tickets generated by user</br>
-├── support_old.php : shows old tickets that were generated by the user</br>
-├── support.php : displays the html page where user can view old/current tickets or add new</br>
-└── support_script.php : adds new tickets into the database</br>
+├── success.php : *user is directed here if the product was purchased successfully*</br>
+├── support_current.php : *shows current tickets generated by user*</br>
+├── support_old.php : *shows old tickets that were generated by the user*</br>
+├── support.php : *displays the html page where user can view old/current tickets or add new*</br>
+└── support_script.php : *adds new tickets into the database*</br>
 
 
 
