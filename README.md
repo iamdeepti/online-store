@@ -103,9 +103,14 @@ After forking this repo include it in the **www** folder inside wamp
 
 ##### Linux users : 
 After forking this repo include it inside **/var/www/html** folder </br></br>
-Import the lebens.sql file in mysql database named "lebens", if you want to use different database name then you will have to change it in include/common.php, just replace the name of database with lebes in mysqli_connect function.  </br>
+
+Import the **lebens.sql** file in mysql database named "lebens", if you want to use different database name then you will have to change it in include/common.php, just replace lebens with name_of_your_database in mysqli_connect function.  </br>
+
 Add the username and password of your database in the file ./include/common.php inside mysqli_connect function </br>
+
 now on linux you can simply write http://localhost/online-store-master<or whatever the name of this repo is on your machine>/index.php on any browser and a start page like one shown below should appear . On windows just "localhost" should work, let me know if it doesn't.
+
+
 	![home page](/screenshots/ss1.png)
 
 To open admin panel run admin.php and use following credentials</br>
