@@ -5,7 +5,14 @@ An Ecommerce website having all basic functionalites with paytm as payment gatew
 
 Framework used: Bootstrap for frontend
 
-This repository has following structure;
+Dependencies : LAMP/WAMP stack or any web server of such kind</br>
+(It's been tested on both LAMP and WAMP stack)
+
+After forking this repo include it in www folder of wamp if using windows, and on linus include it inside /var/www/html folder
+
+
+This repository has following structure:
+
  admin </br>
 │   ├── admin.php : Contains an html form and checks the username and password for admin panel </br>
 │   └── Image : This directory contains images that are being used in the for selling </br>
