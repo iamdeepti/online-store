@@ -121,6 +121,6 @@ To open admin panel run admin.php and use following credentials</br>
 **username = deepti**</br>
 **password = deepti**</br>
 
-to test the payment gateway (using staging credentials) </or>
+to test the payment gateway (using staging credentials) you'll need to login/signup first and click on buy now button you'll be redirected to paytm's payment gateway </or>
 **use phone number : 7777777777**</br>
 **and OTP : 489871**</br>
