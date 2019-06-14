@@ -5,7 +5,7 @@
     <?php
     include 'include/common.php';
     if(!isset($_SESSION['email']))
-        header("location:index.php?error=session not set");
+        header("location:./index.php?error=session not set");
     
         include 'search_form.php';
         $user_id = $_SESSION['user_id'];

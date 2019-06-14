@@ -13,7 +13,7 @@
    $landmark = $_POST['landmark'];
  
    $alt_phone = $_POST['alt_phone'];
-   mysqli_query($con,"INSERT INTO Address (name, mobile, pincode, locality, address, city, state, landmark, alt_mobile,user_id) VALUES('$name','$mobile','$pincode','$locality','$area','$city','$state','$landmark','$alt_phone','$user_id') ") or die(mysqli_error($con));
+   mysqli_query($con,"INSERT INTO address (name, mobile, pincode, locality, address, city, state, landmark, alt_mobile,user_id) VALUES('$name','$mobile','$pincode','$locality','$area','$city','$state','$landmark','$alt_phone','$user_id') ") or die(mysqli_error($con));
    
    header("location:manage_address.php");
 
