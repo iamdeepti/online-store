@@ -6,10 +6,7 @@ An Ecommerce website having all basic functionalites with paytm as payment gatew
 #### Dependencies : 
 LAMP/WAMP stack or any web server of such kind</br>
 (It's been tested on both LAMP and WAMP stack)
-To install Lamp you can follow this tutorial : https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address
 
-
-After forking this repo include it in the **www** folder inside wamp if using windows, and on linux include it inside **/var/www/html** folder
 
 #### Structure of the Repository
 This repository has following structure:
@@ -107,18 +104,23 @@ This repository has following structure:
 ├── support.php : *displays the html page where user can view old/current tickets or add new*</br>
 └── support_script.php : *adds new tickets into the database*</br>
 
+### HOW TO USE THIS 
 
+First fork/clone this repository and install all dependencies (Lamp/wamp or any web server supporting php and mySql).
+To install Lamp you can follow this tutorial : https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address </br>
+##### Windows user :
+After forking this repo include it in the **www** folder inside wamp
 
-To open admin panel run admin.php
+##### Linux users : 
+After forking this repo include it inside **/var/www/html** folder </br></br>
+Import the lebens.sql file in mysql database named "lebens", if you want to use different database name then you will have to change it in include/common.php, just replace the name of database with lebes in mysqli_connect function.  </br>
+Add the username and password of your database in the file ./include/common.php inside mysqli_connect function </br>
+now on linux you can simply write http://localhost/online-store-master<or whatever the name of this repo is on your machine>/index.php on any browser and a start page should appear. On windows just "localhost" should work, let me know if it doesn't.
 
-and use following credentials
+To open admin panel run admin.php and use following credentials</br>
+**username = deepti**</br>
+**password = deepti**</br>
 
-username = deepti
-
-password = deepti
-
-to test the payment gateway (using staging credentials) 
-
-use phone number : 7777777777
-
-and OTP : 489871
+to test the payment gateway (using staging credentials) </or>
+**use phone number : 7777777777**</br>
+**and OTP : 489871**</br>
