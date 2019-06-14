@@ -111,7 +111,7 @@ Add the username and password of your database in the file ./include/common.php 
 now on linux you can simply write http://localhost/online-store-master<or whatever the name of this repo is on your machine>/index.php on any browser and a start page like one shown below should appear . On windows just "localhost" should work, let me know if it doesn't.
 
 
-	![home page](/screenshots/ss1.png)
+![home page](/screenshots/ss1.png)
 
 To open admin panel run admin.php and use following credentials</br>
 **username = deepti**</br>
