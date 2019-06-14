@@ -3,7 +3,7 @@
 
 An Ecommerce website having all basic functionalites with paytm as payment gateway and an admin panel where you can insert , delete and modify products detail and view user query.
 
-####Dependencies : 
+#### Dependencies : 
 LAMP/WAMP stack or any web server of such kind</br>
 (It's been tested on both LAMP and WAMP stack)
 To install Lamp you can follow this tutorial : https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address
@@ -11,7 +11,7 @@ To install Lamp you can follow this tutorial : https://www.digitalocean.com/comm
 
 After forking this repo include it in the **www** folder inside wamp if using windows, and on linux include it inside **/var/www/html** folder
 
-####Structure of the Repository
+#### Structure of the Repository
 This repository has following structure:
 
  admin </br>
@@ -97,7 +97,7 @@ This repository has following structure:
 ├── README.md : *This where you are :p*</br>
 ├── search_form.php : *code for a search bar*</br>
 ├── search.php : *script for searching*</br>
-├── sidebar.php : *creates a sidebar *</br>
+├── sidebar.php : *creates a sidebar*</br>
 ├── signup.php : *displays a signup form*</br>
 ├── signup_script.php : *script for signup page*</br> 
 ├── style.css </br>
