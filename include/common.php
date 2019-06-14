@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","","lebens");
+$con = mysqli_connect("localhost","your-mysql-username","your-mysql-password","lebens");
 session_start();
 ?>
 

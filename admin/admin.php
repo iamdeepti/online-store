@@ -2,9 +2,11 @@
 <html>
     <head>
         <title>Admin</title>
+        <!-- INCLUDE STYLE SHEETS AND JAVASCRIPT -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- PASSWORD AND USERNAME FOR ADMIN PANEL-->
         <?php $pwd = 'deepti';
               $username = 'deepti';   
               session_start();
@@ -13,6 +15,7 @@
     <body>
         <br/>
         <br/>
+        <!-- HTML FORM USING BOOTSTRAP-->
         <div class='container-fluid'>
             <div class='col-sm-offset-4 col-sm-4'>
                     <div class="panel panel-success">
@@ -37,7 +40,7 @@
                     </div>
             </div>
         </div>        
-                    
+         <!--CHECKING IF PASSWORD AND USERNAME ENTERED BY USER MATCHES-->           
         <?php 
             if(isset($_POST['submit']))
             {
