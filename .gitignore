@@ -1,2 +1,2 @@
 #don't track content of these files
-./include/common.php
+include/common.php
