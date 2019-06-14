@@ -24,7 +24,6 @@ This repository has following structure:
 ├── basicDetail.php : *This file displays the basic Details of the user and gives option to edit them*</br>
 ├── cart.php : *This file displays the items in the cart of the user that has logged in*</br>
 ├── cart-remove.php : *Removes an item from cart*</br>
-├── changelog</br>
 ├── favorite.php : *Displays items that were marked as favorite by the user*</br>
 ├── include </br>
 │   ├── bootstrap-3.3.7-dist : *Frontend Framework*</br>
@@ -60,18 +59,13 @@ This repository has following structure:
 │   └── jQuery.js</br>
 ├── index.css </br>
 ├── index.php : *The start page of our store*</br>
+├── lebens.sql : *contains all the tables, database files*</br>
 ├── login.php : *Displays a login page*</br>
 ├── login_script.php : *contains the script to check the password and username entered in login form*</br>
 ├── logout.php : *logs out a user*</br>
 ├── manage_address.php : *Displays all addresses entered by user and gives an option to add or delete them*</br>
 ├── manage_script.php : *Adds or deletes the address of the user depending upon the choice made*</br>
 ├── my_order.php : *shows all the orders made by user*</br>
-├── nbproject</br>
-│   ├── private</br>
-│   │   ├── private.properties</br>
-│   │   └── private.xml</br>
-│   ├── project.properties</br>
-│   └── project.xml</br>
 ├── PaytmKit : *This directory contains files for paytm authentication*</br>
 │   ├── lib</br>
 │   │   ├── config_paytm.php</br>
@@ -84,13 +78,9 @@ This repository has following structure:
 │   ├── config.properties</br>
 │   ├── private.properties</br>
 │   └── private.xml</br>
-├── private.properties</br>
-├── private.xml</br>
 ├── product_detail.php : *Shows the all the details of product once you click on the image*</br>
 ├── profile.css : *css for profile.php*</br>
 ├── profile.php : *shows profile of the user*</br>
-├── project.properties</br>
-├── project.xml</br>
 ├── README.md : *This where you are :p*</br>
 ├── search_form.php : *code for a search bar*</br>
 ├── search.php : *script for searching*</br>
